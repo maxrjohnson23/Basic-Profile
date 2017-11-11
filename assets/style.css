@@ -97,6 +97,16 @@ nav ul {
     float: left;
 }
 
+.gallery img {
+	display: inline-block;
+	height: auto;
+}
+
+div.gallery {
+	
+}
+
+
 .contact h3 {
     color: #888;
     margin-bottom: 5px;
