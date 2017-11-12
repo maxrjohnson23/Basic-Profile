@@ -97,13 +97,20 @@ nav ul {
     float: left;
 }
 
-.gallery img {
-	display: inline-block;
-	height: auto;
+.gallery  {
+	float: left;
+    margin: 7px;
+    height:220px;
 }
 
-div.gallery {
-	
+.project {
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    right: 0;
+    bottom:80px;
+    background-color: #4AAAA5;
 }
 
 
