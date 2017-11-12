@@ -3,8 +3,8 @@
 }*/
 
 body {
-    font-family: 'PT Sans', serif;
-    background-image: url("/assets/images/dust_scratches.png");
+    font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
+    background-image: url("/assets/images/background.png");
 }
 
 .container {}
@@ -40,7 +40,6 @@ body {
 .nav-div {
     background-color: #FFF;
     height: 80px;
-    border-top: 1px solid #DDD;
     border-bottom: 1px solid #DDD;
 }
 
@@ -63,6 +62,11 @@ nav ul {
     float: right;
     margin: 0;
     padding: 0;
+}
+
+.nav-buttons a:hover {
+    background-color: #4AAAA5;
+    color: #FFF;
 }
 
 .nav-buttons li {
@@ -107,7 +111,8 @@ nav ul {
 
 .project {
     color: #FFF;
-    padding: 10px;
+    font-size: 22px;
+    padding: 20px;
     text-align: center;
     position: relative;
     right: 0;
@@ -118,7 +123,7 @@ nav ul {
 
 .contact h3 {
     color: #888;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .contact input,
@@ -126,7 +131,7 @@ textarea {
     box-sizing: border-box;
     margin-bottom: 15px;
     width: 100%;
-    padding: 5px 0;
+    padding: 10px 0;
     border: 1px solid #DDD;
 }
 
