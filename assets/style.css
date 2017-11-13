@@ -5,9 +5,9 @@
 body {
     font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
     background-image: url("/assets/images/background.png");
+    width: 100%;
 }
 
-.container {}
 
 .page {
     width: 960px;
@@ -40,12 +40,16 @@ body {
 .nav-div {
     background-color: #FFF;
     height: 80px;
+    width: 100%;
+    margin: 0;
     border-bottom: 1px solid #DDD;
 }
 
 nav {
+    overflow: auto;
     margin: 0 auto;
     width: 960px;
+    background-color: #FFF;
 }
 
 nav h1 {
@@ -120,6 +124,10 @@ nav ul {
     background-color: #4AAAA5;
 }
 
+.main a:hover {
+    opacity: .8;
+}
+
 
 .contact h3 {
     color: #888;
@@ -155,12 +163,16 @@ textarea {
 }
 
 .connect a {
-    margin: 10px 5px;
+    margin: 15px 5px;
+    display: inline-block;
+
+}
+
+.connect a:hover {
+    opacity: .8;
 }
 
 .connect img {
-    display: inline-block;
-    margin: 20px 2px 30px 2px;
     width: 60px;
 }
 
