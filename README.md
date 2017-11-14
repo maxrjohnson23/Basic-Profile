@@ -1,4 +1,4 @@
-# Basic_Profile
+# Basic Profile
 A basic profile website using plain HTML &amp; CSS
 
 ## Topics Covered
